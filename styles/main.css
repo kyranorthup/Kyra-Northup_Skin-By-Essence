@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "Maigre DEMO";
+  src: url("/fonts/Maigre DEMO.ttf");
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("/fonts/Gilroy-Regular.ttf");
+}
+.header {
+  display: block;
+  padding: 4px 6px;
+  font-size: 14px;
+  color: #000;
+  clear: both;
+  width: 100%;
+}
+.links {
+  font-family: "Gilroy";
+  color: #000000;
+  padding-right: 20px;
+  text-decoration: none;
+}
+.titlespan {
+  display: inline-block;
+  width: 40%;
+  text-align: center;
+}
+.title {
+  font-family: "Maigre DEMO"; /*, cursive;*/
+  font-size: x-large;
+  color: #713c25;
+  text-decoration: none;
+}
+.screendiv {
+  background-image: url("../images/Screen/beachbottle2.png");
+  width: 250px;
+  height: 400px;
+}
+.screentitle {
+  font-family: "Maigre DEMO"; /*, cursive;*/
+  font-size: x-large;
+  color: black;
+}
+.footertitlespan {
+  vertical-align: top;
+  color: #51574b;
+}
+.footertitle {
+  font-family: "Maigre DEMO"; /*, cursive;*/
+  font-size: x-large;
+  color: #51574b;
+  text-decoration: none;
+}
+.footerlinksspan {
+  display: inline-block;
+  width: 40%;
+  text-align: right;
+}
+.footerlinks {
+  font-family: "Gilroy";
+  color: #51574b;
+  padding-right: 20px;
+  text-decoration: none;
+}
+.icon {
+  float: right;
+}
+.line {
+  border-top: 2px solid #713c25;
+}
